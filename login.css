@@ -50,6 +50,7 @@ body{
 }
 @media only screen and (max-width: 600px) {
     .field{
-        width: 100%;
+        width: 90%;
+        margin: 30px auto;
     }
   }
