@@ -22,7 +22,7 @@ body{
     font-weight: 700;
 }
 .field{
-    width: -webkit-calc(60% - 30px);
+    width: 60%;
     margin-top: 30px;
     margin-left: 30px;
     font-size: 24px;
@@ -34,9 +34,7 @@ body{
     border-radius: 51px 3px 51px 3px/3px 51px 3px 51px;
     border: solid 4px #41403E;
 }
-.checkbox{
 
-}
 .button{
     background: white;
     border-radius: 102px 6px 102px 6px/6px 102px 6px 102px;
