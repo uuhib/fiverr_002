@@ -1,52 +1,43 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
-.total{
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+body{
+    background-color: #303030;
+}
+.button.is-light {
+    background-color: #f5f5f5;
+    border-color: transparent;
+    color: rgba(85, 83, 83, 0.7);
+    right: 7px;
+    position: fixed;
 
 }
-.m-nav{
-    border-right: 2px solid black;
-}
-.nav-left{
-    position: relative;
-
-    width: 230px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-
-    
-}
-.nav-left p{
-    position: relative;
-    margin-top: 30px;;
-     left: 10px;
-     color: black;
-     font-weight: 700;
+.menu-list a {
+    border-radius: 2px;
+    color: white;
+    display: block;
+    padding: .5em .75em;
 }
 
-.nav-left a{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    left: 18px;
-    padding-top: 3px;
+.menu-label {
+    color: rgb(141, 50, 50);
+    font-size: .75em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    padding: .1em .25em;
 }
-.nav-right{
-    position: relative;
-    display: flex;
-    flex-direction: column;
+.t-c{
+    width: 25px;
 }
-
-.table1{
-    position: relative;
-    margin-top: 70px;
-    margin-left: 30px;
-    margin-right: 30px;
+.menu{
+    /* width: 15%; */
+    background: rgba(83, 83, 83, 0.39);
 }
+@media only screen and (max-width: 600px) {
+    .menu{
+        width: 40%;
+    }
+    }
+  }
