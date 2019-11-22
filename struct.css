@@ -13,6 +13,9 @@
 .workout{
     margin-top: 50px;
 }
+.m{
+    margin: auto;
+}
 @media only screen and (max-width: 600px) {
     .s{
         margin-left: 10px;
