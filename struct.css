@@ -4,7 +4,15 @@
 .s{
     margin-top: 30px;
 }
-
+.b{
+    width: 300px;
+}
+.d{
+    margin: 5px 0 0 10px;
+}
+.workout{
+    margin-top: 50px;
+}
 @media only screen and (max-width: 600px) {
     .s{
         margin-left: 10px;

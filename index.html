@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Next Workout</title>
+    <title>Program-structure</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <!-- Bulma Version 0.8.x-->
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
     <link rel="stylesheet" type="text/css" href="../css/admin.css">
-    <link rel="stylesheet" href="next.css">
+    <link rel="stylesheet" href="struct.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 
@@ -52,7 +52,7 @@
                     </ul>
                 </aside>
             </div>
-
+    
             <div class="column is-9 is-paddingless-mobile">
                 <nav class="navbar is-white">
                     <div class="container">
@@ -78,188 +78,212 @@
                         </div>
                     </div>
                 </nav>
-                <div class="box">
-                    <div class="field is-horizontal">
-                        <div class="field-label is-normal">
-                            <label class="label">Workout Date:</label>
-                        </div>
-                        <div class="field-body">
-                            <div class="field">
-                                <p class="control is-expanded has-icons-left">
-                                    <input class="input" type="date">
-                                    <span class="icon is-small is-left">
-                                        <i class="fas fa-calendar"></i>
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
+                <div class="workout">
+                    <div class="box">
+                        <h1 class="title">
+                            Workout#1
+                        </h1>
                     </div>
-                </div>
-                <div class="c">
-                    <div class="card">
-                        <header class="card-header">
-                            <p class="card-header-title">
-                                Session 1
-                            </p>
-                        </header>
-                        <div class="card-content">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th>Exercise</th>
-                                        <th>Previous</th>
-                                        <th>Progression Details</th>
-                                        <th>Result</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th>1)Squat</th>
-                                        <td>
-                                            <p class="">12/02/2018 - 197.5x10,7,6</p>
-                                            <p class="">12/02/2018 - 197.5x10,7,6</p>
-                                            <p class="">12/02/2018 - 197.5x10,7,6</p>
-                                        </td>
-                                        <td>
-                                            <p class="content">Linearly Progressive - AVT</p>
-                                            <p>Target Rep: 8</p>
-                                            <p>Target Weight: 200lbs</p>
-                                        </td>
-                                        <td>
-                                            <div class="field is-horizontal" style="margin: 5px 50px;">
-                                                <div class="field-body">
-                                                    <div class="field">
-                                                        <p class="control is-expanded">
-                                                            <input class="input is-small" style="width: 60px;"
-                                                                type="text">
-                                                        </p>
-                                                    </div>
-                                                    <div class="field">
-                                                        <p class="control is-expanded">
-                                                            <input class="input is-small" style="width: 60px;"
-                                                                type="text">
-                                                        </p>
+                    <div class="c">
+                        <div class="card">
+                            <div class="card-content">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Exercise/Order</th>
+                                            <th>increment</th>
+                                            <th># of sets</th>
+                                            <th>Periodization</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="field is-horizontal">
+                                                    <div class="field-body">
+                                                        <div class="field">
+                                                            <p class="control is-expanded">
+                                                                <input class="input is-small" style="width: 40px;" type="text">
+                                                            </p>
+                                                        </div>
+                                                        <div class="control">
+                                                            <div class="select is-small">
+                                                                <select>
+                                                                    <option>Back Squat</option>
+                                                                    <option>With options</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="field is-horizontal" style="margin: 5px 50px;">
-                                                <div class="field-body">
-                                                    <div class="field">
-                                                        <p class="control is-expanded">
-                                                            <input class="input is-small" style="width: 60px;"
-                                                                type="text">
-                                                        </p>
-                                                    </div>
-                                                    <div class="field">
-                                                        <p class="control is-expanded">
-                                                            <input class="input is-small" style="width: 60px;"
-                                                                type="text">
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="field is-horizontal" style="margin: 0 50px;">
-                                                <div class="field-body">
-                                                    <div class="field">
-                                                        <p class="control is-expanded">
-                                                            <input class="input is-small" style="width: 60px;"
-                                                                type="text">
-                                                        </p>
-                                                    </div>
-                                                    <div class="field">
-                                                        <p class="control is-expanded">
-                                                            <input class="input is-small" style="width: 60px;"
-                                                                type="text">
-                                                        </p>
+                                            </td>
+                                            <td>
+                                                <div class="field is-horizontal">
+                                                    <div class="field-body">
+                                                        <div class="field">
+                                                            <p class="control is-expanded">
+                                                                <input class="input is-small" style="width: 50px;" type="number">
+                                                            </p>
+                                                        </div>
+                                                        <div class="control">
+                                                            <div class="select is-small">
+                                                                <select>
+                                                                    <option>lbs</option>
+                                                                    <option>kg</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th>1)Squat</th>
-                                        <td>
-                                            <p class="">12/02/2018 - 197.5x10,7,6</p>
-                                            <p class="">12/02/2018 - 197.5x10,7,6</p>
-                                            <p class="">12/02/2018 - 197.5x10,7,6</p>
-                                        </td>
-                                        <td>
-                                            <p class="content">Linearly Progressive - AVT</p>
-                                            <p>Target Rep: 8</p>
-                                            <p>Target Weight: 200lbs</p>
-                                        </td>
-                                        <td>
-                                            <div class="field is-horizontal" style="margin: 5px 50px;">
-                                                <div class="field-body">
-                                                    <div class="field">
-                                                        <p class="control is-expanded">
-                                                            <input class="input is-small" style="width: 60px;"
-                                                                type="text">
-                                                        </p>
-                                                    </div>
-                                                    <div class="field">
-                                                        <p class="control is-expanded">
-                                                            <input class="input is-small" style="width: 60px;"
-                                                                type="text">
-                                                        </p>
+                                            </td>
+                                            <td>
+                                                <div class="field is-horizontal">
+                                                    <div class="control">
+                                                        <div class="select is-small">
+                                                            <select>
+                                                                <option>3 sets</option>
+                                                                <option>kg</option>
+                                                            </select>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="field is-horizontal" style="margin: 5px 50px;">
-                                                <div class="field-body">
-                                                    <div class="field">
-                                                        <p class="control is-expanded">
-                                                            <input class="input is-small" style="width: 60px;"
-                                                                type="text">
-                                                        </p>
-                                                    </div>
-                                                    <div class="field">
-                                                        <p class="control is-expanded">
-                                                            <input class="input is-small" style="width: 60px;"
-                                                                type="text">
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="field is-horizontal" style="margin: 0 50px;">
-                                                <div class="field-body">
-                                                    <div class="field">
-                                                        <p class="control is-expanded">
-                                                            <input class="input is-small" style="width: 60px;"
-                                                                type="text">
-                                                        </p>
-                                                    </div>
-                                                    <div class="field">
-                                                        <p class="control is-expanded">
-                                                            <input class="input is-small" style="width: 60px;"
-                                                                type="text">
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
+                            </div>
+                            </td>
+                            <td>
+                                <div class="field has-addons">
+                                    <div class="control">
+                                        <div class="select is-small b">
+                                            <select>
+                                                <option>Select</option>
+                                                <option>find 3RM, then take off 20%(rounded up) and finished
+                                                    the prescribed sets</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="control">
+                                        <button class="delete d"></button>
+                                    </div>
+                                </div>
+                            </td>
+                            </tr>
+                            </tbody>
                             </table>
                         </div>
                     </div>
-                    <div class="container">
-                        <div class="box t">
-                            <div class="field">
-                                <div class="control">
-                                    <textarea class="textarea" placeholder="Textarea"></textarea>
+                    <div class="s"><button class="button is-light">Add row</button></div>
+                </div>
+                <div class="workout">
+                        <div class="box">
+                            <h1 class="title">
+                                Workout#2
+                            </h1>
+                        </div>
+                        <div class="c">
+                            <div class="card">
+                                <div class="card-content">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Exercise/Order</th>
+                                                <th>increment</th>
+                                                <th># of sets</th>
+                                                <th>Periodization</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="field is-horizontal">
+                                                        <div class="field-body">
+                                                            <div class="field">
+                                                                <p class="control is-expanded">
+                                                                    <input class="input is-small" style="width: 40px;" type="text">
+                                                                </p>
+                                                            </div>
+                                                            <div class="control">
+                                                                <div class="select is-small">
+                                                                    <select>
+                                                                        <option>Back Squat</option>
+                                                                        <option>With options</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="field is-horizontal">
+                                                        <div class="field-body">
+                                                            <div class="field">
+                                                                <p class="control is-expanded">
+                                                                    <input class="input is-small" style="width: 50px;" type="number">
+                                                                </p>
+                                                            </div>
+                                                            <div class="control">
+                                                                <div class="select is-small">
+                                                                    <select>
+                                                                        <option>lbs</option>
+                                                                        <option>kg</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="field is-horizontal">
+                                                        <div class="control">
+                                                            <div class="select is-small">
+                                                                <select>
+                                                                    <option>3 sets</option>
+                                                                    <option>kg</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                 </div>
+                                </td>
+                                <td>
+                                    <div class="field has-addons">
+                                        <div class="control">
+                                            <div class="select is-small b">
+                                                <select>
+                                                    <option>Select</option>
+                                                    <option>find 3RM, then take off 20%(rounded up) and finished
+                                                        the prescribed sets</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="control">
+                                            <button class="delete d"></button>
+                                        </div>
+                                    </div>
+                                </td>
+                                </tr>
+                                </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="s"><button class="button is-light">Add row</button></div>
+                    </div>
+
+                <div class="container">
+                    <div class="box t">
+                        <div class="field">
+                            <div class="control">
+                                <textarea class="textarea" placeholder="Textarea"></textarea>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="s"><button class="button is-light">Submit Workout</button></div>
-
             </div>
-
-
+    
+            <div class="s"><button class="button is-light">Save changes</button></div>
+    
         </div>
+    
+    
+    </div>
     </div>
     </div>
 </body>
