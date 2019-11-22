@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Program Generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/admin.css">
+    <link rel="stylesheet" href="prog.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-3">
+                <aside class="menu is-primary is-hidden-mobile">
+                    <p class="menu-label">Workouts</p>
+                    <ul class="menu-list">
+                        <li><a href="#">Next Workout</a></li>
+                        <li><a href="#">Previous Workout</a></li>
+                    </ul>
+                    <p class="menu-label">Workouts</p>
+                    <ul class="menu-list">
+                        <li><a href="#">Tracking and History</a></li>
+                    </ul>
+                    <p class="menu-label">Body Composition</p>
+                    <ul class="menu-list">
+                        <li><a href="#">Program Structure</a></li>
+                        <li><a href="#">Program Documentation</a></li>
+                        <li><a href="#">Exercises</a></li>
+                        <li><a href="#">Program Generator</a></li>
+                    </ul>
+                    <p class="menu-label">Workout Program</p>
+                    <ul class="menu-list">
+                        <li><a href="#">Nutrition Guideline</a></li>
+                        <li><a href="#">Sleep and Circadiam Rythm</a></li>
+                        <li><a href="#">Social Eating</a></li>
+                        <li><a href="#">Stress Management</a></li>
+                        <li><a href="#">Supplements</a></li>
+                    </ul>
+                    <p class="menu-label">Workouts</p>
+                    <ul class="menu-list">
+                        <li><a href="#">Knowledge Base</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </aside>
+            </div>
+
+            <div class="column is-9">
+                <nav class="navbar is-white">
+                    <div class="container">
+                        <div class="navbar-brand">
+                            <h1 class="navbar-item brand-text">
+                                Program Generator
+                            </h1>
+                            <div class="navbar-burger burger" data-target="navMenu">
+                                <span>Workouts</span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div id="navMenu" class="navbar-menu">
+                            <div class="navbar-end">
+                                <a class="navbar-item" href="admin.html">
+                                    Notifications(1)
+                                </a>
+                                <p class="navbar-item">
+                                    NoGains Gary
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <section class="hero is-light is-bold welcome is-small">
+                    <div class="hero-body">
+                        <div class="container">
+                            <h1 class="title">
+                                Answer the following questions,
+                            </h1>
+                            <h2 class="subtitle">
+                                and a highly individualized and optimized training program will be generated for you.
+                            </h2>
+                        </div>
+                    </div>
+                </section>
+                <div class="c">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                How old are you?
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="field">
+                                <label class="label">Age:</label>
+                                <div class="control">
+                                    <input class="input" type="text" placeholder="Text input">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                How much do you weigh?
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="field">
+                                <label class="label">Age:</label>
+                            </div>
+                            <div class="field has-addons">
+
+                                <div class="control is-expanded">
+                                    <input class="input" type="text">
+                                </div>
+                                <div class="control">
+
+                                    <span class="select">
+                                        <select>
+                                            <option>lbs</option>
+                                            <option>kg</option>
+
+                                        </select>
+                                    </span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s"><button class="button is-light">Save and Generate program</button></div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

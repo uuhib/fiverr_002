@@ -1,0 +1,12 @@
+.t{
+    margin-top: 30px;
+}
+.s{
+    margin-top: 30px;
+}
+@media only screen and (max-width: 600px) {
+    .s{
+        margin-left: 10px;
+    }
+    
+  }
